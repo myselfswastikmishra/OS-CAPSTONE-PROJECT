@@ -1,0 +1,26 @@
+
+==================================================================
+              OS RESOURCE MONITORING & ALERT SYSTEM               
+==================================================================
+Timestamp : 2026-11-25T05:59:52+00:00 | Host: 19c9538a8105
+CPU      :    0.0%
+RAM      :   20.3% | 1,206 MB used / 5,948 MB
+Disk     :    0.0% | 0.01 GB used / 31.45 GB
+Processes : 17
+==================================================================
+
+==================================================================
+              OS RESOURCE MONITORING & ALERT SYSTEM               
+==================================================================
+Timestamp : 2026-11-25T05:59:53+00:00 | Host: 19c9538a8105
+CPU      :    0.8%
+RAM      :   20.9% | 1,240 MB used / 5,948 MB
+Disk     :    0.0% | 0.01 GB used / 31.45 GB
+Processes : 17
+==================================================================
+
+DEMONSTRATION NOTES
+- The above snapshots were collected from the running host at execution time.
+- Continuous monitoring can be started with: python src/monitor.py --monitor
+- Stop continuous monitoring with Ctrl+C; each completed sample is appended to output/metrics.csv.
+- Alerts are written only when configured thresholds are crossed; test alert examples are in sample_alert_demo.txt.

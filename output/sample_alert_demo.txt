@@ -1,0 +1,4 @@
+ALERT ENGINE DEMONSTRATION (unit-test validated threshold logic)\nThreshold defaults: CPU warning 75%, critical 90%; RAM warning 75%, critical 90%; Disk warning 80%, critical 95%.
+Example test input: CPU=92%, RAM=91%, Disk=96%
+Expected generated alert classifications: CPU CRITICAL, MEMORY CRITICAL, DISK CRITICAL.
+This is a controlled test example, not an alert recorded from the host system.

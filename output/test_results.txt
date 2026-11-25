@@ -1,0 +1,13 @@
+test_alerts_critical_multiple (test_monitor.MonitorTests.test_alerts_critical_multiple) ... ok
+test_alerts_return_cpu_warning (test_monitor.MonitorTests.test_alerts_return_cpu_warning) ... ok
+test_classify_critical_boundary (test_monitor.MonitorTests.test_classify_critical_boundary) ... ok
+test_classify_ok (test_monitor.MonitorTests.test_classify_ok) ... ok
+test_classify_warning_boundary (test_monitor.MonitorTests.test_classify_warning_boundary) ... ok
+test_critical_overrides_warning (test_monitor.MonitorTests.test_critical_overrides_warning) ... ok
+test_recommendations_healthy (test_monitor.MonitorTests.test_recommendations_healthy) ... ok
+test_recommendations_high_memory (test_monitor.MonitorTests.test_recommendations_high_memory) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
